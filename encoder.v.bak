@@ -34,7 +34,7 @@ module ENCODER(IN1,IN2,IN3,IN4,clk,reset,OUT);
 			if(cnt == 3'b110)begin
 			   OUT <= in4;
 			end
-			if(cnt == 3'b111)begin
+			if(cnt == 3'b100)begin
 			   OUT <= in1 + in2 + in3 + in4 ;
 			end
 			cnt<=cnt+3'b001;
