@@ -1,5 +1,5 @@
 
-module ENCODER(IN, clk,reset,OUT,WRONG);
+module DECODER(IN, clk,reset,OUT,WRONG);
 	input reset,clk,IN;
 	output reg[3:0]OUT;
 	output reg WRONG;

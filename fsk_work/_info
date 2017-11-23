@@ -11,11 +11,11 @@ Z4 o-quiet -auto_acc_if_foreign -work fsk_work +acc
 Z5 n@_opt
 Z6 OE;O;10.1a;51
 Z7 dD:\github\fsk_shiyan
-vENCODER
-Z8 I;QZ>U<JUGIzM9JKYaCYea0
-Z9 Vb9dfXU7]QdME`FHEdmIP22
+vDECODER
+Z8 I`n:=AmESOAXknF8goi9;63
+Z9 VH`iXIS82m4>R9MgS=D]DZ2
 R7
-Z10 w1511405856
+Z10 w1511405901
 Z11 8D:\github\fsk_shiyan\decoder.v
 Z12 FD:\github\fsk_shiyan\decoder.v
 L0 2
@@ -24,27 +24,46 @@ r1
 31
 Z14 !s90 -reportprogress|300|-work|fsk_work|-vopt|D:\github\fsk_shiyan\decoder.v|
 Z15 o-work fsk_work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-Z16 n@e@n@c@o@d@e@r
+Z16 n@d@e@c@o@d@e@r
 !i10b 1
-Z17 !s100 ]Qbzn[>JkmnR8P4XGAFh^0
+Z17 !s100 CV3T?_LD7h?=ihB55hzhk3
 !s85 0
-Z18 !s108 1511405859.929000
+Z18 !s108 1511405912.356000
 Z19 !s107 D:\github\fsk_shiyan\decoder.v|
+vENCODER
+Z20 I;QZ>U<JUGIzM9JKYaCYea0
+Z21 Vb9dfXU7]QdME`FHEdmIP22
+R7
+Z22 w1511405856
+R11
+R12
+L0 2
+R13
+r1
+31
+R14
+R15
+Z23 n@e@n@c@o@d@e@r
+Z24 !s100 ]Qbzn[>JkmnR8P4XGAFh^0
+Z25 !s108 1511405859.929000
+R19
+!i10b 1
+!s85 0
 vtest_ec
 !i10b 1
-Z20 !s100 7Ke=YT<zIj9g5dU_BbR4L2
-Z21 I5d[_;PbbWbf4bJ;`V?;j<1
-Z22 VKPd=cBB=j5d_gM7biWB0e1
+!s100 8kck[`=7]?3e[B[>hYX9F3
+I_:1eoKKLC_7ShKaPGJHUD2
+Z26 VKPd=cBB=j5d_gM7biWB0e1
 R7
-Z23 w1511405284
-Z24 8D:\github\fsk_shiyan\bgx_test.v
-Z25 FD:\github\fsk_shiyan\bgx_test.v
+w1511405908
+Z27 8D:\github\fsk_shiyan\bgx_test.v
+Z28 FD:\github\fsk_shiyan\bgx_test.v
 L0 1
 R13
 r1
 !s85 0
 31
-!s108 1511405860.029000
+!s108 1511405912.456000
 !s107 D:\github\fsk_shiyan\bgx_test.v|
-Z26 !s90 -reportprogress|300|-work|fsk_work|-vopt|D:\github\fsk_shiyan\bgx_test.v|
+Z29 !s90 -reportprogress|300|-work|fsk_work|-vopt|D:\github\fsk_shiyan\bgx_test.v|
 R15
