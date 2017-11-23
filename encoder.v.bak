@@ -14,13 +14,13 @@ module ENCODER(IN1,IN2,IN3,IN4,clk,reset,OUT);
 			   in2 <= IN2;
 			   in3 <= IN3;
 			   in4 <= IN4;
-			   OUT <= 0;
+			   OUT <= 1;
 			end
 		  if(cnt == 3'b001)begin
 			   OUT <= 1;
 			end
 			if(cnt == 3'b010)begin
-			   OUT <= 0;
+			   OUT <= 1;
 			end
 			if(cnt == 3'b011)begin
 			   OUT <= in1;

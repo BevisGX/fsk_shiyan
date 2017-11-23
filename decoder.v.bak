@@ -29,7 +29,7 @@ module DECODER(IN, clk,reset,OUT,WRONG);
 	       end
 	     end
 	    else begin
-	      if(head_place==head_cnt & head!=3'b010)begin 
+	      if(head_place==head_cnt & head!=3'b111)begin 
 	        switch=0; 
 	        end
 	        else begin
