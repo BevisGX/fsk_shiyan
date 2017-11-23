@@ -1,0 +1,11 @@
+
+module ENCODER(IN, clk,reset,OUT,WRONG);
+	input reset, clk,IN;
+	output [3:0]OUT;
+	output WRONG;
+	reg [31:0] PC;
+	wire [31:0] PC_next;
+	always @(posedge reset or posedge clk)
+	
+endmodule
+	
