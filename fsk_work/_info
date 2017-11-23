@@ -4,46 +4,47 @@ K3
 cModel Technology
 Z0 dD:\github\fsk_shiyan
 T_opt
-Vb7]XOoQd0dNd4S:gOQnIe2
-04 7 4 work test_ec fast 0
-=1-14b31f148880-5a163789-c7-2980
-o-quiet -auto_acc_if_foreign -work fsk_work +acc
-n@_opt
-OE;O;10.1a;51
+Z1 VC29k=B_WNhQ7NM>Z;z>NV3
+Z2 04 7 4 work test_ec fast 0
+Z3 =1-14b31f148880-5a1638f9-12c-1e24
+Z4 o-quiet -auto_acc_if_foreign -work fsk_work +acc
+Z5 n@_opt
+Z6 OE;O;10.1a;51
+Z7 dD:\github\fsk_shiyan
 vENCODER
-!s100 U=U[2G6550P[7gkTj4>;Q0
-I2ZFPfzI`kc7bM6[kc<13[1
-Vb9dfXU7]QdME`FHEdmIP22
-Z1 dD:\github\fsk_shiyan
-w1511405428
-8D:\github\fsk_shiyan\decoder.v
-FD:\github\fsk_shiyan\decoder.v
+Z8 I;QZ>U<JUGIzM9JKYaCYea0
+Z9 Vb9dfXU7]QdME`FHEdmIP22
+R7
+Z10 w1511405856
+Z11 8D:\github\fsk_shiyan\decoder.v
+Z12 FD:\github\fsk_shiyan\decoder.v
 L0 2
-Z2 OE;L;10.1a;51
+Z13 OE;L;10.1a;51
 r1
 31
-!s90 -reportprogress|300|-work|fsk_work|-vopt|D:\github\fsk_shiyan\decoder.v|
-Z3 o-work fsk_work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-n@e@n@c@o@d@e@r
-!s108 1511405441.147000
-!s107 D:\github\fsk_shiyan\decoder.v|
+Z14 !s90 -reportprogress|300|-work|fsk_work|-vopt|D:\github\fsk_shiyan\decoder.v|
+Z15 o-work fsk_work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z16 n@e@n@c@o@d@e@r
 !i10b 1
+Z17 !s100 ]Qbzn[>JkmnR8P4XGAFh^0
 !s85 0
+Z18 !s108 1511405859.929000
+Z19 !s107 D:\github\fsk_shiyan\decoder.v|
 vtest_ec
-!s100 7Ke=YT<zIj9g5dU_BbR4L2
-I5d[_;PbbWbf4bJ;`V?;j<1
-VKPd=cBB=j5d_gM7biWB0e1
-R1
-w1511405284
-8D:\github\fsk_shiyan\bgx_test.v
-FD:\github\fsk_shiyan\bgx_test.v
-L0 1
-R2
-r1
-31
-!s90 -reportprogress|300|-work|fsk_work|-vopt|D:\github\fsk_shiyan\bgx_test.v|
-R3
 !i10b 1
+Z20 !s100 7Ke=YT<zIj9g5dU_BbR4L2
+Z21 I5d[_;PbbWbf4bJ;`V?;j<1
+Z22 VKPd=cBB=j5d_gM7biWB0e1
+R7
+Z23 w1511405284
+Z24 8D:\github\fsk_shiyan\bgx_test.v
+Z25 FD:\github\fsk_shiyan\bgx_test.v
+L0 1
+R13
+r1
 !s85 0
-!s108 1511405441.232000
+31
+!s108 1511405860.029000
 !s107 D:\github\fsk_shiyan\bgx_test.v|
+Z26 !s90 -reportprogress|300|-work|fsk_work|-vopt|D:\github\fsk_shiyan\bgx_test.v|
+R15

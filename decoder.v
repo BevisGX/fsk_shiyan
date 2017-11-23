@@ -1,20 +1,20 @@
 
 module ENCODER(IN, clk,reset,OUT,WRONG);
 	input reset,clk,IN;
-	output [3:0]OUT;
+	output reg[3:0]OUT;
 	output reg WRONG;
 	reg [2:0] head;
 	reg [2:0] head_cnt;
 	reg [2:0] head_place;
 	reg switch;
 	reg [3:0]outs;
-	assign OUT=outs;
 	initial begin
 		head=3'b000;
 		head_cnt=3'b111;
 		head_place=3'b111;
 		switch=0;
 		outs=4'b0000;
+		OUT=4'b0000;
 		WRONG=0;
 	end
 	always @(posedge clk)begin
@@ -39,7 +39,7 @@ module ENCODER(IN, clk,reset,OUT,WRONG);
 	            3'b011:outs[2]<=IN;
 	            3'b100:outs[3]<=IN;
 	            3'b101:WRONG<=outs[0]+outs[1]+outs[2]+outs[3]+IN;
-	            default:;
+	            default:OUT<=outs;
 	            endcase
 	          end
 	     end
