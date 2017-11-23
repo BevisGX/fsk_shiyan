@@ -3,7 +3,7 @@ module test_ec();
 	reg reset;
 	reg clk;
 	reg IN;
-	ENCODER ec(IN,clk,reset,OUT,WRONG);
+	ENCODER ec(IN, clk,reset,OUT,WRONG);
 	
 	initial begin
 		reset = 1;
